@@ -31,11 +31,11 @@
     width: 400px;
     height: 300px;
   }
-  .img_size{
+  .img_size {
     height: 300px;
     width: 300px;
   }
-  .card_img_size{
+  .card_img_size {
     height: 480px;
     width: 480px;
   }
@@ -72,6 +72,11 @@
 
   .slider_section {
     padding: 45px 0;
+  }
+
+  .map_container {
+    display: none;
+    
   }
 
   .slider_section .slider_heading {
