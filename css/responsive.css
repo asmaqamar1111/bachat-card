@@ -41,7 +41,7 @@
   }
 
   .hero_area::before {
-    background: linear-gradient(to bottom, transparent, #b71c22);
+    background: linear-gradient(to bottom, transparent, #f8f4ff);
   }
 
   .navbar-brand.brand_mobile {
