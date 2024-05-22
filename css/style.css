@@ -41,7 +41,12 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-
+.table_img {
+  width: 50rem !important;
+  margin: 0 auto !important;
+  padding: 40px 0 40px 0;
+  display: flex;
+}
 .heading_container h2 {
   font-weight: bold;
   display: -webkit-box;
@@ -1073,20 +1078,19 @@ a:focus {
   padding: 50px;
   text-align: center;
 }
-.footer h2{
+.footer h2 {
   font-weight: bold;
   padding: 5px;
 }
-.footer a{
+.footer a {
   color: white;
   font-size: xx-large;
   margin: 2px;
 }
-.footer a:hover{
+.footer a:hover {
   color: #b71c22;
   font-size: xx-large;
 }
-
 
 /* CSS */
 .button-71 {
@@ -1096,7 +1100,8 @@ a:focus {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif;
   font-size: 18px;
   font-weight: 600;
   outline: 0;
@@ -1104,7 +1109,7 @@ a:focus {
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -1117,15 +1122,16 @@ a:focus {
   content: "";
   height: 50%;
   left: 4%;
-  opacity: .5;
+  opacity: 0.5;
   position: absolute;
   top: 0;
-  transition: all .3s;
+  transition: all 0.3s;
   width: 92%;
 }
 
 .button-71:hover {
-  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+    rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
   transform: scale(1.05);
 }
 
@@ -1133,4 +1139,22 @@ a:focus {
   .button-71 {
     padding: 16px 48px;
   }
+}
+.img_about {
+  width: 400px;
+  height: 400px;
+  margin-top: 10rem !important;
+  margin-left: 5rem !important;
+}
+.animated_logo {
+  /* width: 200px; */
+  cursor: pointer;
+  transition: transform 0.2s; /* Animation */
+}
+
+
+.animated_logo:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

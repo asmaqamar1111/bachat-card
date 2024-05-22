@@ -14,17 +14,72 @@
       0 0
     );
   }
+  .about_small {
+    display: none;
+  }
+  .table_img {
+    width: 30rem !important;
+    margin: 0 auto !important;
+    padding: 40px 0 40px 0;
+    display: flex;
+  }
 }
 
 @media (max-width: 1120px) {
+  .about_small {
+    display: none;
+  }
+  .table_img {
+    width: 40rem !important;
+    margin: 0 auto !important;
+    padding: 40px 0 40px 0;
+    display: flex;
+  }
 }
 
 @media (max-width: 992px) {
+  .table_img {
+    width: 20rem !important;
+    margin: 0 auto !important;
+    padding: 40px 0 40px 0;
+    display: flex;
+  }
   .hero_area {
     height: auto;
   }
   .hero_area h2 {
     visibility: hidden;
+  }
+  .img_about {
+    width: 380px;
+    height: 250px;
+    margin: 0 !important;
+  }
+  .box_text {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+  }
+  .box_text1 {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+  }
+  .box_text2 {
+    font-size: small;
+    
+  }
+  .about_large {
+    display: none;
+  }
+  .about_small {
+    display: block;
   }
 
   .video {
@@ -36,8 +91,8 @@
     width: 300px;
   }
   .card_img_size {
-    height: 480px;
-    width: 480px;
+    height: 400px;
+    width: 400px;
   }
 
   .hero_area::before {
@@ -76,7 +131,6 @@
 
   .map_container {
     display: none;
-    
   }
 
   .slider_section .slider_heading {
