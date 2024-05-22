@@ -92,8 +92,8 @@
     width: 300px;
   }
   .card_img_size {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 350px;
   }
 
   .hero_area::before {
